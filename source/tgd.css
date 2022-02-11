@@ -91,10 +91,10 @@ html.darkmode:root {
 html {
 	background: linear-gradient(135deg, var(--color-bg-1) 0%, var(--color-bg-2) 35%, var(--color-bg-3) 100%);
   height: auto;
+  cursor: url(https://kanisiel2.github.io/kgd.github.io/source/images/cursor.png) 0 0, auto !important;
 }
 body {
   background: transparent;
-  cursor: url(https://kanisiel2.github.io/kgd.github.io/source/images/cursor.png),auto;
 }
 
 html.darkmode a ,a {
