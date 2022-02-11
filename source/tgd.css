@@ -94,7 +94,7 @@ html {
 }
 body {
   background: transparent;
-  cursor: var(--cursorURL),auto;
+  cursor: url(https://kanisiel2.github.io/kgd.github.io/source/images/cursor.png),auto;
 }
 
 html.darkmode a ,a {
