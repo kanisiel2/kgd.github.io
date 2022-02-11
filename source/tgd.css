@@ -68,6 +68,7 @@
 	--mainColor2: #77777722; /* 트게더 메뉴, 게시글 hover */
 	--logoURL: url(https://kanisiel2.github.io/kgd.github.io/source/images/logo.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
+  --cursorURL: url(https://kanisiel2.github.io/kgd.github.io/source/images/cursor.png);
 	--list-background-img: url(https://kanisiel2.github.io/kgd.github.io/source/images/kanabi.png);
 	--before: "묘화단 "; /* 접속자 수 앞 문구 */
 	--after: "명이 접속중!";  /* 접속자 수 뒤 문구 */
@@ -91,7 +92,10 @@ html {
 	background: linear-gradient(135deg, var(--color-bg-1) 0%, var(--color-bg-2) 35%, var(--color-bg-3) 100%);
   height: auto;
 }
-body { background: transparent; }
+body {
+  background: transparent;
+  cursor: var(--cursorURL),auto;
+}
 
 html.darkmode a ,a {
 	color: var(--mainColor);
@@ -304,7 +308,7 @@ div#article-list:before {
 }
 /* 방문글 색 변경 */
 #article-list>.article-list-row>.item>.list-title>a:visited {
-  color: #222222 !important;
+  color: #454545 !important;
 }
 
 /* 메인 영역 테두리 제거, 그림자 */
