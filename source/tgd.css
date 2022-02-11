@@ -95,6 +95,9 @@ html {
 html, body, .fr-popup, .fr-active div>*, .fr-btn-wrap, span#viewers, select.form-control, input[type=checkbox], input[type=radio], .opt {
   cursor: url(https://kanisiel2.github.io/kgd.github.io/source/images/cursor.png) 0 0, auto !important;
 }
+a {
+  cursor: url(https://kanisiel2.github.io/kgd.github.io/source/images/handcursor.png) 0 0, auto !important;
+}
 body {
   background: transparent;
 }
